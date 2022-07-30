@@ -1,4 +1,4 @@
-# NorthamptonCarRentalService
+# Vehicle rental system
 A vehicle rental system built using Java
 
 1. Aims and Objective:
@@ -60,8 +60,8 @@ Vehicle menu (Customer):
 
 3.List of bugs and weaknesses 
 	The proposed final system does have few flaws or weaknesses that could not be accounted for in time. Listed below are all the bugs discovered in the current system:
-S.N.	Bug	                                                                                                      Possible solution 
-1.	When renting out a vehicle, the vehicle table does not get updated unless the “Hire Menu” tab is reopened.      	--
-2.	Every menu for admin dashboard opens a new frame, which might be considered as a bad practice 	                Break up the code into classes that extend JPanel and add panels to a single JFrame.
-3.	Currently multiple vehicles or customers can be added with the same ID. (No unique ID check available)	         When adding a new vehicle or customer check the binary file if there already exists a record with similar ID. 
+S.N.	Bug	                                                                                                      
+1.	When renting out a vehicle, the vehicle table does not get updated unless the “Hire Menu” tab is reopened.      	
+2.	Every menu for admin dashboard opens a new frame, which might be considered as a bad practice 	               
+3.	Currently multiple vehicles or customers can be added with the same ID. (No unique ID check available)	         
 
