@@ -1,7 +1,7 @@
 # Vehicle rental system
 A vehicle rental system built using Java
 
-1. Aims and Objective:
+# 1. Aims and Objective:
 The key aim of this project is to develop, incorporate, and validate a stand-alone corporate vehicle rental system using object-oriented principles in java that can be accessed via a graphical user interface.
 The focal aspect of the project or the Northampton Vehicle Hire System is to design and build a GUI that allow the staff of Northampton Vehicle Hire Company to execute the following tasks via the system:
 -	Log onto the system with a username and password
@@ -20,14 +20,14 @@ Beside the staffs, the system should also allow the corporate customers to do th
 -	Inquire about his/her account, including his/her personal information and all of the vehicles he/she has out on loan.
 -	View all the vehicles available for hire.
 
-2. Screenshots:
+# 2. Screenshots:
 
 Login:
  
 ![image](https://user-images.githubusercontent.com/61860925/181877047-0a784256-527a-46cc-b8ae-492eff69783f.png)
 
 
-  2.1 ADMIN:
+  ## 2.1 ADMIN:
  
 Add Vehicle menu (Admin): 
 ![image](https://user-images.githubusercontent.com/61860925/181877065-2299d941-82f6-4ee7-a595-fbc4ca18fd59.png)
@@ -47,7 +47,7 @@ Query Menu (Admin):
 
 
 
-  2.2 Customer:
+ ## 2.2 Customer:
  
 Customer Dashboard (Customer): 
 ![image](https://user-images.githubusercontent.com/61860925/181877097-f9dd7660-4154-41c3-83c3-f0e42b142d8e.png)
@@ -58,7 +58,7 @@ Vehicle menu (Customer):
 ![image](https://user-images.githubusercontent.com/61860925/181877098-200537d5-23c0-495f-846c-336b4551a988.png)
 
 
-3.List of bugs and weaknesses 
+# 3.List of bugs and weaknesses 
 	The proposed final system does have few flaws or weaknesses that could not be accounted for in time. Listed below are all the bugs discovered in the current system:
 S.N.	Bug	                                                                                                      
 1.	When renting out a vehicle, the vehicle table does not get updated unless the “Hire Menu” tab is reopened.      	
